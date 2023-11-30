@@ -24,7 +24,9 @@
 
 > Actions taken but not yet versioned
 
-- Nothing for now
+- Updated repository documentation (RMAP_CLOG.md)
+- Updated repository documentation (README.md)
+- Updated copyright notice (LICENSE.txt)
 
 ### [Untracked](#untracked)
 
