@@ -5,7 +5,7 @@ A set of scripts for cleaning, maintaining, configuring and optimizing Windows S
 ## Dependencies and Requirements
 
 - PowerShell 5 or 6 ([Microsoft has not yet ported the WSUS module to PowerShell 7](https://learn.microsoft.com/en-us/powershell/windows/module-compatibility?view=windowsserver2022-ps#:~:text=UpdateServices,by%20Compatibility%20Layer))
-- [IIS Administration PowerShell module](https://blogs.iis.net/iisteam/introducing-iisadministration-in-the-powershell-gallery), when Windows Server 2012 R2
+- [IIS Administration PowerShell module](https://blogs.iis.net/iisteam/introducing-iisadministration-in-the-powershell-gallery), when using Windows Server 2012 R2
 - Windows Server Update Services (WSUS) and/or RSAT for WSUS
 - [Microsoft SQL Server Official PowerShell module](https://docs.microsoft.com/en-us/sql/powershell/download-sql-server-ps-module?view=sql-server-ver15)
 
@@ -17,13 +17,14 @@ A set of scripts for cleaning, maintaining, configuring and optimizing Windows S
     # Offers the user to perform each of the recommended tasks
     .\Optimize-WsusService.ps1 -FirstRun
     ```
+
     ```powershell
     # Disable and remove drivers 
     # Note: this will do a lot more things, see the "Remove-DriversFromWsus.ps1" script
     .\Optimize-WsusService.ps1 -DisableDrivers
     .\Optimize-WsusService.ps1 -DeepClean
     ```
-    For more details, check out the [original repository](https://github.com/awarre/Optimize-WsusServer) or the comments within the script itself. Keep in mind that the *Optimize-WsusService.ps1* script is a modified version of *Optimize-WsusServer.ps1* and has also been renamed.
+    For more details, check out the [original repository](https://github.com/awarre/Optimize-WsusServer) or the comments within the script itself. Keep in mind that the *Optimize-WsusService.ps1* script is a modified version of *Optimize-WsusServer.ps1*.
 
 - **Remove-DriversFromWsus.ps1**: Removes drivers from WSUS
 
@@ -53,7 +54,7 @@ This repository is based on and inspired by - but not limited to - [Keep a Chang
 
 Developed by [Ezequiel Lage](https://github.com/ezlage), Sponsored by [Lageteck](https://lageteck.com) and Published under the [MIT License](./LICENSE.txt).  
 
-Credits to [AWARRE](https://github.com/awarre) and [DUMMVOLG](https://github.com/Dummvogl) for the original version and contribution to the *Optimize-WsusService.ps1* script, formerly *Optimize-WsusServer.ps1*[¹](https://github.com/awarre/Optimize-WsusServer). Credit also to [Liby Philip Mathew](https://libyphilip.wordpress.com/) for the code that gave rise to the *Remove-DriversFromWsus.ps1*[²](https://libyphilip.wordpress.com/2017/01/04/how-to-delete-driver-updates-from-wsus/) script.
+Credits to [AWARRE](https://github.com/awarre) and [DUMMVOLG](https://github.com/Dummvogl) for the original version and contributions to the *Optimize-WsusService.ps1* script, formerly *Optimize-WsusServer.ps1*<sup>[1](https://github.com/awarre/Optimize-WsusServer)</sup>. Credit also to [Liby Philip Mathew](https://libyphilip.wordpress.com/) for the code that gave rise to the *Remove-DriversFromWsus.ps1*<sup>[2](https://libyphilip.wordpress.com/2017/01/04/how-to-delete-driver-updates-from-wsus/)</sup> script.
 
 All suggestions, criticisms and contributions are welcome!  
 
