@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (C) 1990-2020, Ezequiel Lage de Carvalho Aragão and/or Lageteck (R)
+Copyright (C) 2000-2025, Ezequiel Lage de Carvalho Aragão and/or Lageteck (R)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
