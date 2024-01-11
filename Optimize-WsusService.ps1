@@ -1,5 +1,3 @@
-#Requires -Modules SqlServer
-
 <#
 .SYNOPSIS
     Comprehensive Windows Server Update Services (WSUS) configuration and optimization script.
@@ -52,6 +50,8 @@
     Optimize-WsusServer.ps1 -DeepClean
     Optimize-WsusServer.ps1 -InstallDailyTask -CheckConfig -OptimizeServer
 #>
+
+#Requires -Modules SqlServer
 
 [CmdletBinding()]
 param (
