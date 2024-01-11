@@ -25,6 +25,8 @@
 > Actions taken but not yet versioned
 
 - Updated repository documentation (RMAP_CLOG.md)
+- The requirements statement has been moved below (Optimize-WsusService.ps1)
+- Updated repository documentation (RMAP_CLOG.md)
 - Updated repository documentation (README.md)
 - Updated copyright notice (LICENSE.txt)
 
