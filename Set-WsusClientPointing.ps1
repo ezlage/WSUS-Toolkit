@@ -1,4 +1,4 @@
-param(
+﻿param(
     [bool] $WsusEnabled,
     [string] $ComputerName = $null,  
     [pscredential] $Credential = $null
