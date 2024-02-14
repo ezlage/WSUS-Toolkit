@@ -1,4 +1,4 @@
-# The original version of this script is authored by Liby Philip Mathew and was obtained through this link:
+﻿# The original version of this script is authored by Liby Philip Mathew and was obtained through this link:
 # https://libyphilip.wordpress.com/2017/01/04/how-to-delete-driver-updates-from-wsus/
 
 # Requires RSAT for WSUS
