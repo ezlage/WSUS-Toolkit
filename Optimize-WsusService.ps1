@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Comprehensive Windows Server Update Services (WSUS) configuration and optimization script.
 
