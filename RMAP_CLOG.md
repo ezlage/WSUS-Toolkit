@@ -25,6 +25,10 @@
 > Actions taken but not yet versioned
 
 - Updated repository documentation (RMAP_CLOG.md)
+- Converted encoding to UTF8-BOM (Set-WsusClientPointing.ps1)
+- Converted encoding to UTF8-BOM (Reset-WsusDrivers.ps1)
+- Converted encoding to UTF8-BOM (Optimize-WsusService.ps1)
+- Updated repository documentation (RMAP_CLOG.md)
 - The requirements statement has been moved below (Optimize-WsusService.ps1)
 - Updated repository documentation (RMAP_CLOG.md)
 - Updated repository documentation (README.md)
